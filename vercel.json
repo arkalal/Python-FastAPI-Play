@@ -14,5 +14,10 @@
   ],
   "env": {
     "MONGO_DB_URI": "mongodb+srv://arkalalchakravarty:vN6WrXXrqum5j45y@pythonapiplay.wz8zd2d.mongodb.net/?retryWrites=true&w=majority&appName=pythonApiPlay"
+  },
+  "functions": {
+    "api/*.py": {
+      "maxDuration": 10
+    }
   }
 }
