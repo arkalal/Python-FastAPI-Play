@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/main.py"
+    }
+  ],
+  "env": {
+    "MONGO_DB_URI": "mongodb+srv://arkalalchakravarty:vN6WrXXrqum5j45y@pythonapiplay.wz8zd2d.mongodb.net/?retryWrites=true&w=majority&appName=pythonApiPlay"
+  }
+}
